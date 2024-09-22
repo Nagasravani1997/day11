@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        
+        .e1a,.e1b,.e2a,.e2b,.e3a,.e3b{
+            display: inline-block;
+            
+            padding: 20px;
+            
+            width: 35%;
+            text-align: center;
+            margin-right: 0px;
+            margin-left: 80px;
+            justify-content: center;
+            height: 28vh;
+            border-radius: 1%;
+
+        }
+        .e4a,.e4b{
+            display: inline-block;
+            padding: 20px;
+            width: 35%;
+            text-align: center;
+            margin-right: 0px;
+            margin-left: 80px;
+            justify-content: center;
+            height: 5vh;
+            border-radius: 1%;
+        }
+        .e5a,.e5b,.e5c,.e5d,.e5e,.e5f,.e5g,.e5h,.e5i,.e5j,.e5k,.e5l,.e5m,.e5n,.e5o,.e5p,.e5q,.e5r,.e5s,.e5t,.e5u,.e5v,.e5w,.e5x,.e5y,.e5z,.e6a,.e6b,.e6c,.e6d,.e6e,.e6f,.e6g,.e6h,.e6i,.e6j{
+            display: inline-block;
+           padding: 9px;
+            width: 14%;
+            
+            margin-right: 0px;
+            margin-left: 80px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            height: 15vh;
+            line-height: 80px;
+            border-radius: 1%;
+            
+        }
+        .e7a,.e7b,.e8a,.e8b{
+            display: inline-block;
+            padding: 20px;
+            width: 35%;
+            text-align: center;
+            margin-right: 0px;
+            margin-left: 80px;
+            justify-content: center;
+            height: 5vh;
+            border-radius: 1%;
+        }
+
+        div{
+            display: inline;
+            text-align: center;
+        }
+        span{
+            font-size: 16px;
+            font-weight: 100;
+        }
+        button{
+            background-color: black;
+            color: white;
+        }
+        .e1a{
+            background-color: palevioletred;
+        }
+        .e1b{
+            background-color: rgb(229, 235, 173);
+        }
+        .e2a{
+            background-color: rgb(193, 228, 184);
+        }
+        .e2b{
+            background-color: rgb(214, 168, 175);
+        }
+        .e3a{
+            background-color: rgb(122, 211, 217);
+        }
+        .e3b{
+            background-color: rgb(159, 169, 183);
+        }
+        .e4a{
+            background-color: rgb(249, 193, 193);
+        }
+        .e4b{
+            background-color: rgb(239, 243, 158);
+        }
+        .e5a{
+            background-color: rgb(239, 243, 158);
+        }
+        .e5b{
+            background-color: rgb(129, 121, 175);
+        }
+        .e5c{
+            background-color: rgb(23, 112, 72);
+        }
+        .e5d{
+            background-color: rgb(145, 223, 217);
+        }
+        .e5e{
+            background-color: rgb(213, 187, 213);
+        }
+        .e5f{
+            background-color: rgb(222, 180, 75);
+        }
+        .e5g{
+            background-color: rgb(136, 211, 177);
+        }
+        .e5h{
+            background-color: rgb(231, 134, 134);
+        }
+        .e5i{
+            background-color: rgba(158, 243, 182, 0.422);
+        }
+        .e5j{
+            background-color: palegoldenrod;
+        }
+        .e5k{
+            background-color: paleturquoise;
+        }
+        .e5l{
+            background-color: rgb(108, 185, 178);
+        }
+        .e5m{
+            background-color: palevioletred;
+        }
+        .e5n{
+            background-color: aqua;
+        }
+        .e5o{
+            background-color: plum;
+        }
+        .e5p{
+            background-color: peachpuff;
+        }
+        .e5q{
+            background-color: teal;
+        }
+        .e5r{
+            background-color: hotpink;
+        }
+        .e5s{
+            background-color: gainsboro;
+        }
+        .e5t{
+            background-color: seagreen;
+        }
+        .e5u{
+            background-color: palevioletred;
+        }
+        .e5v{
+            background-color: rgb(129, 121, 175);
+        }
+        .e5w{
+            background-color: rgb(111, 193, 120);
+        }
+        .e5x{
+            background-color: rgb(89, 143, 138);
+        }
+        .e5y{
+            background-color: rgb(127, 129, 102);
+        }
+        .e5z{
+            background-color: rgb(86, 57, 246);
+        }
+        .e6a{
+            background-color: rgb(142, 181, 164);
+        }
+        .e6b{
+            background-color: rgb(250, 159, 47);
+        }
+        .e6c{
+            background-color: rgb(186, 188, 152);
+        }
+        .e6d{
+            background-color: rgb(248, 170, 170);
+        }
+        .e6e{
+            background-color: rgb(87, 139, 115);
+        }
+        .e6f{
+            background-color: rgb(176, 127, 131);
+        }
+        .e6g{
+            background-color: rgb(211, 189, 231);
+        }
+        .e6h{
+            background-color: rgb(125, 238, 140);
+        }
+        .e6i{
+            background-color: rgb(218, 145, 209);
+        }
+        .e6j{
+            background-color: rgb(163, 192, 189);
+        }
+       .e7a{
+        background-color: rgb(191, 128, 172);
+       }
+       .e7b{
+        background-color: paleturquoise;
+       }
+       .e8a{
+        background-color: beige;
+       }
+       .e8b{
+        background-color: aqua;
+       }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="e1a">php<br><span>A web server programming language</span><br>
+            <button type="submit">Learn PHP</button>
+        
+        </h1>
+        
+        </div>
+        <div>
+        <h1 class="e1b">jQuery<br>
+           <span>A js library for developing web pages</span> <br>
+           <button type="submit">Learn jQuery</button>
+
+        
+        </h1>
+        </div>
+    
+
+    <div>
+        <h1 class="e2a">Java<br>
+            <span>A programming language</span><br>
+            <button type="submit">Learn java</button>
+        
+        </h1>
+        </div>
+        <div>
+            <h1 class="e2b">C++<br>
+                <span>A programming language</span><br>
+                <button type="submit">Learn C++</button>
+            
+            </h1>
+            </div>
+            <div>
+                <h1 class="e3a">W3.css<br>
+                    <span>A css framework for faster and better responsive web pages</span><br>
+                    <button type="submit">Learn W3.css</button>
+                
+                </h1>
+                </div>
+                <div>
+                    <h1 class="e3b">Bootstrap<br>
+                        <span>A css framework for designing better web pages</span><br>
+                        <button type="submit">Learn Bootstrap</button><br>
+                    
+                    </h1>
+                    </div>
+                    <div>
+                        <h1 class="e4a">C</h1>
+                        <h1 class="e4b">C#</h1>
+                    </div>
+         <div class="e5a">R</div>
+         <div class="e5b">Kotlin</div>
+         <div class="e5c">Node.js</div>
+         <div class="e5d">React</div>
+         <div class="e5e">JSON</div>
+         <div class="e5f">Vue</div>
+         <div class="e5g">MySQL</div>
+         <div class="e5h">XML</div>
+         <div class="e5i">Sass</div>
+         <div class="e5j">Icons</div>
+         <div class="e5k">rwd</div>
+         <div class="e5l">graphics</div>
+         <div class="e5m">svg</div>
+         <div class="e5n">canvas</div>
+         <div class="e5o">raspberry pi</div>
+         <div class="e5p">cyber security</div>
+         <div class="e5q">colors</div>
+         <div class="e5r">git</div>
+         <div class="e5s">matplotlib</div>
+         <div class="e5t">numpy</div>
+         <div class="e5u">pandas</div>
+         <div class="e5v">scipy</div>
+         <div class="e5w">ASP</div>
+         <div class="e5x">Angular JS</div>
+         <div class="e5y">AppML</div>
+         <div class="e5z">G0</div>
+         <div class="e6a">TypesScript</div>
+         <div class="e6b">Django</div>
+         <div class="e6c">MongoDB</div>
+         <div class="e6d">Statistics</div>
+         <div class="e6e">Data Science</div>
+         <div class="e6f">Typing speed</div>
+         <div class="e6g">how to</div>
+         <div class="e6h">Code game</div>
+         <div class="e6i">Spaces</div>
+         <div class="e6j">PostgreSQL</div>
+         <div>
+            <h3 class="e7a">Excel</h3>
+            <h3 class="e7b">DSA - Data Structures and Algorithms</h3>
+        </div>
+        <div>
+            <h3 class="e8a">Machine Learning</h3>
+            <h3 class="e8b">Artificial intelligence</h3>
+        </div>
+
+         </div>           
+</body>
+</html>
